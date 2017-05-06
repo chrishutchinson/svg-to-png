@@ -1,0 +1,22 @@
+{
+  "name": "svg-to-png",
+  "version": "1.0.0",
+  "description": "Converts SVGs to images using headless Chrome",
+  "main": "svg-to-png.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SVG",
+    "PNG",
+    "Chrome",
+    "Headless",
+    "convert"
+  ],
+  "author": "Chris Hutchinson <hello@chrishutchinson.me>",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-remote-interface": "^0.22.0",
+    "lighthouse": "^1.6.5"
+  }
+}
